@@ -1,0 +1,1 @@
+{"name":"rwd-ba001-backend","version":"1.0.0","type":"module","scripts":{"start":"node server.js","check":"node --check server.js"},"dependencies":{"cors":"latest","express":"latest"}}

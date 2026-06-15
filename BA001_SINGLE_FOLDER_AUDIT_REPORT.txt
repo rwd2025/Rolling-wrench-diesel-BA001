@@ -1,0 +1,39 @@
+BA001 SINGLE FOLDER AUDIT
+Mon Jun 15 16:47:22 UTC 2026
+
+Files:
+BA001_SINGLE_FOLDER_AUDIT_REPORT.txt
+README_BA001_SINGLE_FOLDER.txt
+SUPABASE_SETUP.sql
+V94_BUILD_NOTES.txt
+app-icon-192.png
+app-icon-512.png
+app.js
+apple-touch-icon.png
+backend-README.md
+backend-package.json
+backend-server.js
+heavy_duty_all_systems_seed.xlsx
+heavy_duty_parts_cross_refs_seed.xlsx
+heavy_duty_ultimate_seed.xlsx
+index.html
+logo-badge.jpg
+logo-header.jpg
+manifest.json
+quantum-brain.js
+service-worker.js
+style.css
+supabase_schema.sql
+
+Checks:
+PASS - app.js syntax
+PASS - backend-server.js syntax
+PASS - manifest JSON
+PASS - one folder, no nested directories
+PASS - app icons flat/local
+PASS - 10 CSS-only themes, no theme image dependency
+
+Locked scope scan:
+./README_BA001_SINGLE_FOLDER.txt:4:- No WESS
+./README_BA001_SINGLE_FOLDER.txt:5:- No accounting app/dashboard
+./README_BA001_SINGLE_FOLDER.txt:6:- No visible Ask AI/chat screen
