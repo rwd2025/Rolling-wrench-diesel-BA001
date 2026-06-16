@@ -29,3 +29,19 @@ body{background:linear-gradient(135deg,#090a0c,#171a1f 42%,#26190f);}
 .btn.primary,.side button.active{background:linear-gradient(135deg,#c57a2c,#f2c14e);color:#111}.btn.ok{background:linear-gradient(135deg,#65c466,#f2c14e);color:#111}.signature-panel{margin-top:14px;border:1px dashed rgba(242,193,78,.55);background:rgba(242,193,78,.07);border-radius:18px;padding:14px}.signature-panel h3{margin-top:0}.sig{height:210px;border:2px solid rgba(0,0,0,.3)}
 @media(max-width:860px){.button-dashboard{grid-template-columns:repeat(2,1fr)}.home-status{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:430px){.button-dashboard{grid-template-columns:1fr}.big-button{min-height:78px}.home-status{grid-template-columns:1fr}.home-panel h2{font-size:1.45rem}}
+
+
+/* BA001 bar-to-button add-on: removes bottom/side bars and replaces them with tap buttons */
+.shell{padding-bottom:28px}
+.bottom-nav{display:none!important}
+.module-wrap{display:grid;grid-template-columns:1fr;gap:14px}
+.module-buttons{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:14px 0 2px}
+.nav-button{min-height:64px;border:1px solid var(--line);border-radius:16px;background:linear-gradient(180deg,#23272e,#14171b);color:var(--text);text-align:left;padding:12px;box-shadow:0 8px 18px rgba(0,0,0,.24);cursor:pointer}
+.nav-button b{display:block;font-size:.88rem;letter-spacing:.04em;text-transform:uppercase;color:#fff;line-height:1.08}
+.nav-button span{display:block;margin-top:5px;font-size:.68rem;color:var(--muted);font-weight:900;letter-spacing:.06em}
+.nav-button.active,.nav-button.home-btn{background:linear-gradient(135deg,#c57a2c,#f2c14e);color:#111;border:0}
+.nav-button.active b,.nav-button.active span,.nav-button.home-btn b,.nav-button.home-btn span{color:#111}
+.layout{display:block!important}.side{display:none!important}
+@media(max-width:900px){.module-buttons{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:600px){.module-buttons{grid-template-columns:repeat(2,1fr)}.nav-button{min-height:58px}}
+@media(max-width:380px){.module-buttons{grid-template-columns:1fr}.nav-button{min-height:52px}}
